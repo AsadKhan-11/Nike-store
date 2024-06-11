@@ -5,17 +5,30 @@
 }
 
 .nav-logo {
-  height: 80px;
+  height: 90px;
   width: 105px;
+  mix-blend-mode: color-burn;
 }
 
 .nav-items {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 .nav-links {
   text-decoration: none;
-  color: blue;
+  color: white;
   height: 20px;
   font-size: 18px;
+}
+.nav-shop {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-user {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+
+  color: white;
 }

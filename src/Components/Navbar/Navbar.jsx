@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import nike from "../../../public/nike.jpg";
+import { UserCircleIcon } from "@heroicons/react/16/solid";
+import { ShoppingBagIcon } from "@heroicons/react/16/solid";
 
 function Navbar() {
   return (
@@ -25,7 +27,16 @@ function Navbar() {
         </a>
       </div>
 
-      <div className="nav-shop"></div>
+      <div className="nav-shop">
+        <a href="" className="nav-links">
+          {" "}
+          <UserCircleIcon className="nav-user" />
+        </a>
+        <a href="" className="nav-links">
+          {" "}
+          <ShoppingBagIcon className="nav-user" />
+        </a>
+      </div>
     </nav>
   );
 }
