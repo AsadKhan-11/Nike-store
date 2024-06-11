@@ -1,0 +1,21 @@
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 80px;
+  width: 105px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 30px;
+}
+.nav-links {
+  text-decoration: none;
+  color: blue;
+  height: 20px;
+  font-size: 18px;
+}
