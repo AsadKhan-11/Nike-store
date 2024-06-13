@@ -1,6 +1,7 @@
 .header-sec {
   height: 100vh;
   position: relative;
+  z-index: 1;
 }
 
 .nike-header {
@@ -28,7 +29,7 @@
   color: white;
   position: absolute;
   left: 0;
-  bottom: 35%;
+  bottom: 40%;
   gap: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }

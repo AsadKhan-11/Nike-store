@@ -1,0 +1,19 @@
+.footer-size {
+  display: flex;
+  gap: 20px;
+  width: 220px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: grey;
+}

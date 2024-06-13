@@ -18,8 +18,10 @@
 .nav-links {
   text-decoration: none;
   color: white;
-  height: 20px;
+  height: 40px;
   font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 .nav-shop {
   display: flex;

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+
 function Header() {
   return (
     <div className="header-sec">
@@ -21,6 +23,7 @@ function Header() {
           <p className="header-price">$200</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
