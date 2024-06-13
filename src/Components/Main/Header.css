@@ -1,0 +1,17 @@
+.nike-header {
+  font-size: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: scale(2, 3.5);
+}
+
+.nike-header-wrapper {
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
