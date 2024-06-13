@@ -1,3 +1,8 @@
+.header-sec {
+  height: 100vh;
+  position: relative;
+}
+
 .nike-header {
   font-size: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -9,9 +14,42 @@
 }
 
 .nike-header-wrapper {
-  height: 300px;
+  height: 50vh;
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  gap: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-name {
+  font-size: 32px;
+
+  margin-bottom: 10px;
+}
+.header-tag {
+  font-weight: 500;
+}
+
+.header-price,
+.header-date {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.header-tag-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

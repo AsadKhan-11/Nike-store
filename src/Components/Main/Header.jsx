@@ -9,10 +9,18 @@ function Header() {
       <div className="nike-header-wrapper">
         <h1 className="nike-header">NIKE</h1>
       </div>
+      <div className="header-info">
+        <h2 className="header-name">Jordan 1 red</h2>
 
-      <h3 className="header-name">Jordan 1 red</h3>
-      <p className="header-date">10/04/2005</p>
-      <p className="header-price">$200</p>
+        <div className="header-tag-wrapper">
+          <h3 className="header-tag">Released date</h3>
+          <p className="header-date">10/04/2005</p>
+        </div>
+        <div className="header-tag-wrapper">
+          <h3 className="header-tag">Price</h3>
+          <p className="header-price">$200</p>
+        </div>
+      </div>
     </div>
   );
 }
