@@ -24,6 +24,12 @@ function Footer() {
           <button className="btn-colors"></button>
         </div>
       </div>
+      <div className="footer-right">
+        <div className="btn-move-wrapper">
+          <button className="btn-move">&larr;</button>
+          <button className="btn-move">&rarr;</button>
+        </div>
+      </div>
     </div>
   );
 }
