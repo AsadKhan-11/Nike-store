@@ -5,6 +5,13 @@
   flex-wrap: wrap;
 }
 
+.footer-left {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
 .btn {
   height: 40px;
   width: 40px;
@@ -16,4 +23,35 @@
 .btn:hover {
   cursor: pointer;
   background-color: grey;
+}
+.btn-colors {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.btn-colors:nth-child(1) {
+  background-color: black;
+}
+.btn-colors:nth-child(2) {
+  background-color: orange;
+}
+.btn-colors:nth-child(3) {
+  background-color: purple;
+}
+.btn-colors:nth-child(4) {
+  background-color: green;
+}
+.btn-colors:nth-child(5) {
+  background-color: red;
+}
+
+.footer-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-colors:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
