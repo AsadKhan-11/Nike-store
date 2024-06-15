@@ -25,6 +25,13 @@ function Footer() {
         </div>
       </div>
       <div className="footer-right">
+        <p className="footer-info">
+          Nike shoes are renowned for their innovative design, superior comfort,
+          and high performance. Popular among athletes and casual wearers alike,
+          they feature advanced technologies like Air Max cushioning and Flyknit
+          material. With a variety of styles, Nike shoes cater to diverse needs,
+          ensuring both functionality and fashionable appeal.
+        </p>
         <div className="btn-move-wrapper">
           <button className="btn-move">&larr;</button>
           <button className="btn-move">&rarr;</button>
