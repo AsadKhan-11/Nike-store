@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 
-function Footer() {
+function Footer({ changeBg }) {
   return (
     <div className="footer-sec">
       <div className="footer-left">
@@ -17,11 +17,36 @@ function Footer() {
         </div>
 
         <div className="footer-colors">
-          <button className="btn-colors"></button>
-          <button className="btn-colors"></button>
-          <button className="btn-colors"></button>
-          <button className="btn-colors"></button>
-          <button className="btn-colors"></button>
+          <button
+            className="btn-colors"
+            onClick={() => {
+              changeBg("black");
+            }}
+          ></button>
+          <button
+            className="btn-colors"
+            onClick={() => {
+              changeBg("orange");
+            }}
+          ></button>
+          <button
+            className="btn-colors"
+            onClick={() => {
+              changeBg("purple");
+            }}
+          ></button>
+          <button
+            className="btn-colors"
+            onClick={() => {
+              changeBg("green");
+            }}
+          ></button>
+          <button
+            className="btn-colors"
+            onClick={() => {
+              changeBg("red");
+            }}
+          ></button>
         </div>
       </div>
       <div className="footer-right">

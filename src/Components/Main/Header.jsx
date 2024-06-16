@@ -3,7 +3,7 @@ import "./Header.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-function Header() {
+function Header({ changeBg }) {
   return (
     <div className="header-sec">
       <Navbar />
@@ -23,7 +23,7 @@ function Header() {
           <p className="header-price">$200</p>
         </div>
       </div>
-      <Footer />
+      <Footer changeBg={changeBg} />
     </div>
   );
 }

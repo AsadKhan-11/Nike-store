@@ -1,15 +1,18 @@
 import { useState } from "react";
-import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Main/Header";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [bgColor, setBgColor] = useState("black");
+
+  const changeBg = (blockColor) => {
+    setBgColor(blockColor);
+  };
 
   return (
-    <>
-      <Header />
-    </>
+    <div className="app" style={{ backgroundColor: bgColor }}>
+      <Header changeBg={changeBg} />
+    </div>
   );
 }
 
