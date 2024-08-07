@@ -25,31 +25,31 @@ function Footer({ changeBg }) {
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("black", Black);
+              changeBg("black", Black, "Black");
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("#ff2600", Orange);
+              changeBg("#ff2600", Orange, "Red");
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("#ffa2c1", Beige);
+              changeBg("#ffa2c1", Beige, "Beige");
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("#047043", Green);
+              changeBg("#047043", Green, "Green");
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("#ecec49", Yellow);
+              changeBg("#ecec49", Yellow, "Yellow");
             }}
           ></button>
         </div>

@@ -7,10 +7,15 @@ function App() {
   const [bgColor, setBgColor] = useState({
     backgroundColor: "#000000",
     image: `url(${Black}) `,
+    name: "black",
   });
 
-  const changeBg = (blockColor, blockimg) => {
-    setBgColor({ backgroundColor: blockColor, image: `url(${blockimg} )` });
+  const changeBg = (blockColor, blockimg, blockname) => {
+    setBgColor({
+      backgroundColor: blockColor,
+      image: `url(${blockimg} )`,
+      name: blockname,
+    });
   };
 
   return (
@@ -26,7 +31,7 @@ function App() {
           backgroundImage: bgColor.image,
         }}
       ></div>
-      <Header changeBg={changeBg} />
+      <Header changeBg={changeBg} bgColor={bgColor} />
     </div>
   );
 }

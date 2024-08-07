@@ -3,7 +3,7 @@ import "./Header.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-function Header({ changeBg }) {
+function Header({ changeBg, bgColor }) {
   return (
     <div className="header-sec">
       <Navbar />
@@ -12,7 +12,9 @@ function Header({ changeBg }) {
         <h1 className="nike-header">NIKE</h1>
       </div>
       <div className="header-info">
-        <h2 className="header-name">Jordan 1 red</h2>
+        <h2 className="header-name">
+          Jordan 1 {bgColor.name} {}
+        </h2>
 
         <div className="header-tag-wrapper">
           <h3 className="header-tag">Released date</h3>
