@@ -39,16 +39,16 @@
   background-color: black;
 }
 .btn-colors:nth-child(2) {
-  background-color: orange;
+  background-color: #ff2600;
 }
 .btn-colors:nth-child(3) {
-  background-color: purple;
+  background-color: #ffa2c1;
 }
 .btn-colors:nth-child(4) {
-  background-color: green;
+  background-color: #047043;
 }
 .btn-colors:nth-child(5) {
-  background-color: red;
+  background-color: #ecec49;
 }
 
 .footer-colors {

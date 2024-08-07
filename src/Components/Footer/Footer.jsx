@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./Footer.css";
+import Black from "../../assets/Black.png";
+import Green from "../../assets/Green.png";
+import Orange from "../../assets/Orange.png";
+import Yellow from "../../assets/Yellow.png";
+import Beige from "../../assets/Beige.png";
 
 function Footer({ changeBg }) {
   return (
@@ -20,31 +25,31 @@ function Footer({ changeBg }) {
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("black");
+              changeBg("black", Black);
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("orange");
+              changeBg("#ff2600", Orange);
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("purple");
+              changeBg("#ffa2c1", Beige);
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("green");
+              changeBg("#047043", Green);
             }}
           ></button>
           <button
             className="btn-colors"
             onClick={() => {
-              changeBg("red");
+              changeBg("#ecec49", Yellow);
             }}
           ></button>
         </div>
