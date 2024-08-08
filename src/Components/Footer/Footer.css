@@ -41,13 +41,13 @@
 .btn-colors:nth-child(2) {
   background-color: #ff2600;
 }
-.btn-colors:nth-child(3) {
+/* .btn-colors:nth-child(3) {
   background-color: #ffa2c1;
-}
-.btn-colors:nth-child(4) {
+} */
+.btn-colors:nth-child(3) {
   background-color: #047043;
 }
-.btn-colors:nth-child(5) {
+.btn-colors:nth-child(4) {
   background-color: #ecec49;
 }
 
@@ -91,7 +91,27 @@
 .footer-info {
   position: absolute;
   color: white;
-  top: 35%;
+  top: 25%;
   left: 80%;
-  text-align: justify;
+  text-align: left;
+  font-size: 18px;
+}
+
+.socials {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.socials ion-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.socials:hover {
+  color: black;
+  transition: all 1s;
 }

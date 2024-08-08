@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import nike from "../../../public/nike.jpg";
+import nike from "../../../public/nike.png";
 import { UserCircleIcon } from "@heroicons/react/16/solid";
 import { ShoppingBagIcon } from "@heroicons/react/16/solid";
 

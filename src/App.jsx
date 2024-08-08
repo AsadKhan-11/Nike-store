@@ -7,7 +7,7 @@ function App() {
   const [bgColor, setBgColor] = useState({
     backgroundColor: "#000000",
     image: `url(${Black}) `,
-    name: "black",
+    name: "Black",
   });
 
   const changeBg = (blockColor, blockimg, blockname) => {

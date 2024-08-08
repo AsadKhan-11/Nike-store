@@ -34,12 +34,12 @@ function Footer({ changeBg }) {
               changeBg("#ff2600", Orange, "Red");
             }}
           ></button>
-          <button
+          {/* <button
             className="btn-colors"
             onClick={() => {
               changeBg("#ffa2c1", Beige, "Beige");
             }}
-          ></button>
+          ></button> */}
           <button
             className="btn-colors"
             onClick={() => {
@@ -63,8 +63,18 @@ function Footer({ changeBg }) {
           ensuring both functionality and fashionable appeal.
         </p>
         <div className="btn-move-wrapper">
-          <button className="btn-move">&larr;</button>
-          <button className="btn-move">&rarr;</button>
+          <button className="socials">
+            {" "}
+            <ion-icon name="logo-instagram"></ion-icon>{" "}
+          </button>
+          <button className="socials">
+            {" "}
+            <ion-icon name="logo-facebook"></ion-icon>{" "}
+          </button>
+          <button className="socials">
+            {" "}
+            <ion-icon name="logo-linkedin"></ion-icon>{" "}
+          </button>
         </div>
       </div>
     </div>
